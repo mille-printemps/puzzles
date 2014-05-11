@@ -15,7 +15,7 @@ Sample input file:
 3 2
 
 How to run:
-./02box.rb <input file name>
+./pentomino.rb <input file name>
 
 Constraints:
 The number of blocks that can be used is 62. (from 'A' to '~' in the order of Unicode)
@@ -264,7 +264,7 @@ end
 # Main function
 
 if ARGV.empty?
-  print "Usage: ./02box.rb <filename>\n"
+  print "Usage: ./pentomino.rb <filename>\n"
   exit
 end
 

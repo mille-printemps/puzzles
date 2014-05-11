@@ -16,7 +16,7 @@ Sample input file:
 000000020
 
 How to run
-./01sudoku.rb <input file name>
+./sudoku.rb <input file name>
 
 =end
 
