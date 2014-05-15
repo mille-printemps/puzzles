@@ -80,7 +80,7 @@ class Box
   end
 
   def solve
-    unless can_accomodate?
+    unless can_accommodate?
       puts "No solution found."
       exit
     end
@@ -168,7 +168,7 @@ class Box
     true
   end
 
-  def can_accomodate?
+  def can_accommodate?
     total_area = @blocks.reduce(0) {|sum, block| sum += block.size.r * block.size.c}
     total_area == @height * @width
   end
